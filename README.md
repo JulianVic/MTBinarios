@@ -1,4 +1,4 @@
-#MTBinarios
+# MTBinarios
 El algoritmo está diseñado para que la máquina de Turing detecte un patrón específico en la cadena de entrada: la cadena debe comenzar con los valores "10" y terminar con el signo "=". Los caracteres entre estas dos condiciones solo pueden ser "1" y "0", ya que el propósito de esta máquina de Turing es identificar números decimales, convertirlos a binarios y luego realizar la suma de estos valores para mostrarlos en pantalla.
 
 El estado inicial de la máquina comienza con el valor "1" y luego se mueve a la derecha hacia el estado 2. En este estado, la máquina puede transitar al estado 3 si encuentra el valor "0". Desde el estado 3, la máquina puede regresar a este mismo estado mientras se encuentren valores "0" o "1". Para llegar al estado final, la máquina necesita encontrar el signo "=" como condición de finalización.
